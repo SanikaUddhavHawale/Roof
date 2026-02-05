@@ -1,0 +1,134 @@
+.carousel-item img {
+    height: 30rem;
+}
+
+.banner-wrapper {
+    position: relative;
+}
+
+.banner {
+    margin-bottom: 8rem;
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    z-index: 1;
+}
+
+fieldset {
+    position: relative;
+    width: 28rem;
+    background-color: white;
+    padding: 1rem;
+    margin-left: 8rem;
+    border-radius: 7px;
+}
+
+form {
+    position: relative;
+    z-index: 10;
+    border-top: 5rem solid transparent;
+}
+
+.date {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.date label {
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.date input {
+    width: 7rem;
+    font-size: 0.8rem;
+}
+
+hr {
+    margin-bottom: 1.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575px) {
+    fieldset {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.8rem;
+    }
+    .carousel-item img {
+        height: 20rem;
+    }
+    .date {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .date label {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .date input {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    form button {
+        width: 100%;
+    }
+}
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    fieldset {
+        width: 22rem;
+        margin-left: 2rem;
+        padding: 0.8rem;
+    }
+    .carousel-item img {
+        height: 25rem;
+    }
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    fieldset {
+        width: 24rem;
+        margin-left: 3rem;
+    }
+    .carousel-item img {
+        height: 28rem;
+    }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    fieldset {
+        width: 26rem;
+        margin-left: 5rem;
+    }
+    .carousel-item img {
+        height: 30rem;
+    }
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) {
+    fieldset {
+        width: 28rem;
+        margin-left: 8rem;
+    }
+    .carousel-item img {
+        height: 30rem;
+    }
+}

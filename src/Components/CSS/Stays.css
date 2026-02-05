@@ -1,0 +1,59 @@
+.stays-page {
+  padding: 4rem 6%;
+}
+
+.stays-page h1 {
+  font-size: 2.5rem;
+}
+
+.stays-page p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.status {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.status.error {
+  color: red;
+}
+
+.stays-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.stay-card {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.stay-card:hover {
+  transform: translateY(-6px);
+}
+
+.stay-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.stay-info {
+  padding: 1rem;
+}
+
+.stay-info h3 {
+  margin: 0;
+}
+
+.stay-info span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

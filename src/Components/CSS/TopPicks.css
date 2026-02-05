@@ -1,0 +1,127 @@
+#row {
+    margin-left: 2rem;
+}
+
+.col-5 img {
+    height: 5rem;
+    width: 5.5rem;
+}
+
+.card1 {
+    width: 15rem;
+}
+
+#heading {
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+}
+
+p {
+    margin-left: 2rem;
+    color: gray;
+}
+
+#internationProperties {
+    margin-top: 2rem;
+}
+
+/* ---------------- MEDIA QUERIES ---------------- */
+
+/* Mobile devices (<576px) */
+@media (max-width: 575px) {
+    #row {
+        margin-left: 0.5rem;
+    }
+    .col-5 img {
+        height: 3.5rem;
+        width: 4rem;
+    }
+    .card1 {
+        width: 12rem;
+    }
+    #heading {
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+    }
+    p {
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+    #internationProperties {
+        margin-top: 1rem;
+    }
+}
+
+/* Small devices (≥576px and <768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #row {
+        margin-left: 1rem;
+    }
+    .col-5 img {
+        height: 4rem;
+        width: 4.5rem;
+    }
+    .card1 {
+        width: 13rem;
+    }
+    #heading {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+    }
+    p {
+        margin-left: 1rem;
+        font-size: 0.85rem;
+    }
+    #internationProperties {
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablets (≥768px and <992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #row {
+        margin-left: 1.5rem;
+    }
+    .col-5 img {
+        height: 4.5rem;
+        width: 5rem;
+    }
+    .card1 {
+        width: 14rem;
+    }
+    #heading {
+        font-size: 1.6rem;
+        margin-left: 1.5rem;
+    }
+    p {
+        margin-left: 1.5rem;
+        font-size: 0.9rem;
+    }
+    #internationProperties {
+        margin-top: 1.8rem;
+    }
+}
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+    #row {
+        margin-left: 2rem;
+    }
+    .col-5 img {
+        height: 5rem;
+        width: 5.5rem;
+    }
+    .card1 {
+        width: 15rem;
+    }
+    #heading {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+    #internationProperties {
+        margin-top: 2rem;
+    }
+}
