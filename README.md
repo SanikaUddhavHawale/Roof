@@ -1,6 +1,6 @@
 ﻿# React Machine Test - KAP Softech
 
-# StayVista – Hospitality & Luxury Stays Website
+# Roof – Hospitality & Luxury Stays Website
 
 A modern hospitality web application inspired by platforms like StayVista and Lohono.
 Built using React, Bootstrap, and modern frontend practices.
@@ -29,5 +29,6 @@ Built using React, Bootstrap, and modern frontend practices.
 - JavaScript (ES6+)
 
 ---
+
 
 
